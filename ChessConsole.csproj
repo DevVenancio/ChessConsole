@@ -47,6 +47,12 @@
     <Compile Include="ChessBoard\Color.cs" />
     <Compile Include="ChessBoard\Piece.cs" />
     <Compile Include="ChessBoard\Position.cs" />
+    <Compile Include="ChessPieces\Bishop.cs" />
+    <Compile Include="ChessPieces\Horse.cs" />
+    <Compile Include="ChessPieces\King.cs" />
+    <Compile Include="ChessPieces\Pawn.cs" />
+    <Compile Include="ChessPieces\Queen.cs" />
+    <Compile Include="ChessPieces\Tower.cs" />
     <Compile Include="ConsoleBoard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

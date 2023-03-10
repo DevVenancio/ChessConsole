@@ -9,14 +9,15 @@ namespace ChessBoard
     class Piece
     {
         public Position Position { get; set; }
-        public Color MyProperty { get; protected set; }
+        public Color Color { get; protected set; }
         public int NumMoviments { get; protected set; }
         public Board BoardPosition { get; protected set; }
 
-        public Piece(Position position, Color myProperty)
+        public Piece(Board boardPosition, Color color)
         {
-            Position = position;
-            MyProperty = myProperty;
+            Position = null;
+            BoardPosition = boardPosition;
+            Color = color;
             NumMoviments = 0;
         }
     }
